@@ -1,0 +1,25 @@
+//hackerank basic data type
+
+https://www.hackerrank.com/challenges/c-tutorial-basic-data-types/problem?isFullScreen=true
+
+#include <iostream>
+#include <cstdio>
+#include <iomanip>
+using namespace std;
+
+int main() {
+    int a;
+    long b;
+    char c;
+    float d;
+    double e;
+    
+    cin>>a>>b>>c>>d>>e;
+    cout<<a<<"\n"<<b<<"\n"<<c<<"\n";
+    //cout<<fixed<<setprecision(3)<<d<<"\n";
+    //cout<<fixed<<setprecision(9)<<e<<"\n";
+    printf("%0.3f\n",d);
+    printf("%0.9lf", e);
+    return 0;
+    }
+    
