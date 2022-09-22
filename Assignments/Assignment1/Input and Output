@@ -1,0 +1,25 @@
+
+
+https://www.hackerrank.com/challenges/cpp-input-and-output/submissions/code/289356917
+
+#include <cmath>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include <algorithm>
+using namespace std;
+
+
+int main() {
+    int a;
+    int b;
+    int c;
+    cin>>a;
+    cin>>b;
+    cin>>c;
+    int sum;
+    sum=a+b+c;
+    cout<<sum;
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */   
+    return 0;
+}
