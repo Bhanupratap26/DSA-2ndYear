@@ -1,0 +1,27 @@
+https://www.hackerrank.com/challenges/c-tutorial-pointer/submissions/code/291502355
+
+#include <iostream>
+using namespace std;
+
+
+
+int main() {
+    int a, b;
+    int *m,*n;
+    int sum,sub;
+    
+    
+    cin>>a;
+    cin>>b;
+    
+   m=&a;
+   n=&b;
+   
+   sum=*m + *n;
+   sub=abs(*m-*n);
+    
+   cout<<sum<<"\n";
+   cout<<sub<<"\n";
+
+    return 0;
+}
