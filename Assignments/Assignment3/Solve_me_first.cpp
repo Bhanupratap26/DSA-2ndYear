@@ -1,5 +1,3 @@
-https://www.hackerrank.com/challenges/solve-me-first/submissions/code/293194529
-
 #include <stdio.h>
 #include <string.h>
 #include <math.h>
